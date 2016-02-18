@@ -120,7 +120,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "megasatan" then -- Put everything you like :)
+    if matches[2] == "cyclone" then -- Put everything you like :)
       if not is_admin(msg) then
         return "For admins only !"
       else
@@ -148,8 +148,8 @@ return {
     "^([Ss]tats)$",
     "^([Ss]tatslist)$",
     "^([Ss]tats) (group) (%d+)",
-    "^([Ss]tats) (megasatan)",-- Put everything you like :)
-		"^([Mm]egasatan)"-- Put everything you like :)
+    "^([Ss]tats) (cyclone)",-- Put everything you like :)
+		"^([Cc]yclone)"-- Put everything you like :)
     }, 
   run = run
 }
