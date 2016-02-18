@@ -1440,8 +1440,8 @@ local function run(msg, matches)
     if matches[1] == 'mega' and  matches[2] == 'satan' then
     	        return "W_SaTaN_W \n Advanced Bot Base On Seed\n@WilSoN_DeVeLoPeR[DeVeLoPeR] \n#Open_Source\n\n[@W_SaTaN](Https://telegra.me/W_SaTaN_W)"
             end
-    if matches[1] == 'megasatan' then
-    	return "W_SaTaN_W \n Advanced Bot Base On Seed\n@WilSoN_DeVeLoPeR[DeVeLoPeR] \n#Open_Source\n\n[@W_SaTaN](Https://telegra.me/W_SaTaN_W)"
+    if matches[1] == 'cyclone' then
+    	return "Cyclone \n Advanced Bot Base On Seed\n@XMakaN[ManageR] \n#Open_Source_Comming_Soon\n\n[@W_SaTaN](Https://telegra.me/CycloneTG)"
     end
     if matches[1] == 'owner' then
       local group_owner = data[tostring(msg.to.id)]['set_owner']
@@ -1606,14 +1606,13 @@ return {
   "^(rem)$",
   "^(rem) (realm)$",
   "^(rules)$",
-  "^([Mm]ega) (satan)$",
   "^(about)$",
   "^(setname) (.*)$",
   "^(setphoto)$",
   "^(promote) (.*)$",
   "^(promote)",
   "^(help)$",
-  "^([Mm]egasatan)$",
+  "^([Cc]yclone)$",
   "^(clean) (.*)$",
   "^(kill) (chat)$",
   "^(kill) (realm)$",
